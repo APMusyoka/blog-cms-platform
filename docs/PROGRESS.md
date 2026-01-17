@@ -2,7 +2,7 @@
 
 **Last Updated**: 2026-01-17
 
-## 🎉 Current Status: MVP Foundation Complete
+## 🎉 Current Status: Core Pages Complete - MVP Ready!
 
 ### ✅ What's Done
 
@@ -28,13 +28,21 @@
 #### 4. Blog Components (100%)
 - **PostCard** - Featured image, category badge, metadata, author info, hover effects
 - **Newsletter** - Email subscription with gradient background and success state
+- **TableOfContents** - Interactive TOC with scroll spy and smooth scrolling
+- **AuthorBio** - Author card with avatar, bio, social links
+- **SocialShare** - Share buttons for social media platforms
 
-#### 5. Pages (25%)
+#### 5. Common Components (100%)
+- **SearchBar** - Search input with clear button
+- **CategoryFilter** - Pill-style category buttons
+- **Pagination** - Smart pagination with ellipsis
+
+#### 6. Pages (100% - All Core Pages Complete!)
 - ✅ **Homepage** - Hero, features, posts, newsletter, CTA sections
-- ⏳ Blog listing page
-- ⏳ Post detail page
-- ⏳ Category pages
-- ⏳ About page
+- ✅ **Blog Listing** - Search, filters, pagination, 9 posts
+- ✅ **Blog Post Detail** - Full article with TOC, author bio, related posts
+- ✅ **Categories** - 6 category cards with descriptions
+- ✅ **About** - Mission, team, values, story
 
 #### 6. Dependencies Installed
 - ✅ Next.js 15 with App Router
