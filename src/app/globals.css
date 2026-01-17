@@ -411,3 +411,143 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--foreground);
 }
+
+/* ================================
+   Prose Styling (Blog Content)
+   ================================ */
+
+.prose {
+  color: var(--foreground);
+}
+
+.prose h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  scroll-margin-top: 6rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  scroll-margin-top: 6rem;
+}
+
+.prose p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.prose a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.2s ease;
+}
+
+.prose a:hover {
+  color: var(--color-primary-700);
+}
+
+.prose strong {
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.prose code {
+  background: var(--muted);
+  padding: 0.2em 0.4em;
+  border-radius: var(--radius-sm);
+  font-size: 0.875em;
+  font-family: var(--font-mono);
+  color: var(--color-primary-700);
+}
+
+.prose pre {
+  background: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.prose pre code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  font-size: 0.875rem;
+  color: var(--foreground);
+  line-height: 1.7;
+}
+
+.prose ul,
+.prose ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose li {
+  margin: 0.5rem 0;
+  line-height: 1.8;
+}
+
+.prose li>p {
+  margin: 0.5rem 0;
+}
+
+.prose blockquote {
+  border-left: 4px solid var(--primary);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+  color: var(--muted-foreground);
+}
+
+.prose blockquote p {
+  margin: 1rem 0;
+}
+
+.prose img {
+  border-radius: var(--radius-lg);
+  margin: 2rem 0;
+}
+
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 3rem 0;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.prose th,
+.prose td {
+  border: 1px solid var(--border);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.prose th {
+  background: var(--muted);
+  font-weight: 600;
+}
+
+.dark .prose code {
+  color: var(--color-primary-400);
+}
