@@ -599,7 +599,14 @@ font-family: 'Playfair Display', Georgia, serif;
 ## 🔍 Icons
 
 ### Icon System
-**Recommended**: Lucide Icons or Heroicons
+**Using**: Lucide React (installed)
+
+Lucide provides a comprehensive set of beautifully crafted open source icons with consistent style and size.
+
+### Installation
+```bash
+npm install lucide-react
+```
 
 ### Icon Sizes
 ```css
@@ -610,12 +617,68 @@ font-family: 'Playfair Display', Georgia, serif;
 --icon-xl: 48px;
 ```
 
-### Usage
-- **Navigation**: 24px
-- **Buttons**: 20px
-- **Social links**: 24px
-- **Feature highlights**: 48px
-- **Inline text**: 16px
+### Usage Examples
+
+```tsx
+import { Search, Menu, X, ChevronRight, Heart, Share2 } from 'lucide-react';
+
+// In components
+<Search size={24} />
+<Menu size={20} className="text-neutral-700" />
+<Heart size={16} strokeWidth={2.5} />
+```
+
+### Common Icons for Blog Platform
+
+```tsx
+// Navigation
+import { Home, BookOpen, User, Settings, Menu, X } from 'lucide-react';
+
+// Actions
+import { Search, Edit, Trash2, Save, Plus, Minus } from 'lucide-react';
+
+// Content
+import { FileText, Image, Video, Calendar, Clock } from 'lucide-react';
+
+// Social
+import { Heart, MessageCircle, Share2, Bookmark } from 'lucide-react';
+
+// Social Media
+import { Twitter, Facebook, Linkedin, Github, Mail } from 'lucide-react';
+
+// UI
+import { ChevronRight, ChevronLeft, ChevronUp, ChevronDown } from 'lucide-react';
+import { ArrowRight, ArrowLeft, ExternalLink } from 'lucide-react';
+
+// Status
+import { Check, AlertCircle, Info, XCircle } from 'lucide-react';
+```
+
+### Size Usage Guidelines
+- **Navigation**: 24px (`size={24}`)
+- **Buttons**: 20px (`size={20}`)
+- **Social links**: 24px (`size={24}`)
+- **Feature highlights**: 48px (`size={48}`)
+- **Inline text**: 16px (`size={16}`)
+
+### Styling Icons
+
+```tsx
+// Color
+<Search className="text-primary-600" />
+
+// Custom size
+<Heart size={32} />
+
+// Stroke width
+<Menu strokeWidth={2.5} />
+
+// With animation
+<Heart 
+  className="hover:text-red-500 transition-colors" 
+  fill={isFavorited ? 'currentColor' : 'none'}
+/>
+```
 
 ---
 
