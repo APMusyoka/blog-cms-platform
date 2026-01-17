@@ -421,6 +421,11 @@ a:hover {
   word-wrap: break-word;
   overflow-wrap: break-word;
   word-break: break-word;
+  overflow-x: hidden;
+}
+
+.prose>* {
+  max-width: 100%;
 }
 
 .prose h2 {
@@ -517,6 +522,9 @@ a:hover {
   margin: 2rem 0;
   font-style: italic;
   color: var(--muted-foreground);
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .prose blockquote p {
