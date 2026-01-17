@@ -16,7 +16,7 @@ const CategoryFilter: React.FC<CategoryFilterProps> = ({
     onCategoryChange,
 }) => {
     return (
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3 justify-center">
             <button
                 onClick={() => onCategoryChange?.('all')}
                 className={cn(

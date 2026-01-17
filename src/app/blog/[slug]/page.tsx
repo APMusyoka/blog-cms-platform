@@ -263,7 +263,7 @@ export default function BlogPostPage() {
                 <div className="max-w-7xl mx-auto">
                     <div className="grid lg:grid-cols-[1fr_300px] gap-12">
                         {/* Main Content */}
-                        <div className="prose prose-lg dark:prose-invert max-w-none">
+                        <div className="prose prose-lg dark:prose-invert max-w-none min-w-0 overflow-wrap-break-word">
                             <div dangerouslySetInnerHTML={{ __html: mockPost.content }} />
 
                             {/* Tags */}

@@ -418,6 +418,9 @@ a:hover {
 
 .prose {
   color: var(--foreground);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .prose h2 {
@@ -473,6 +476,7 @@ a:hover {
   padding: 1.5rem;
   overflow-x: auto;
   margin: 2rem 0;
+  max-width: 100%;
 }
 
 .prose pre code {

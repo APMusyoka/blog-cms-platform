@@ -34,7 +34,7 @@ const PostCard: React.FC<PostCardProps> = ({
             <Card hover className="h-full group cursor-pointer overflow-hidden">
                 {/* Featured Image */}
                 {featuredImage && (
-                    <div className="relative w-full h-48 overflow-hidden rounded-t-xl -m-6 mb-0">
+                    <div className="relative w-full h-48 overflow-hidden rounded-t-xl mb-0">
                         <Image
                             src={featuredImage}
                             alt={title}
