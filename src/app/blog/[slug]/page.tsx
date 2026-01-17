@@ -269,7 +269,7 @@ export default function BlogPostPage() {
                             {/* Tags */}
                             {mockPost.tags && mockPost.tags.length > 0 && (
                                 <div className="not-prose mt-12 pt-8 border-t border-border">
-                                    <div className="flex items-center gap-2 flex-wrap">
+                                    <div className="flex items-center justify-center gap-2 flex-wrap">
                                         <Tag size={20} className="text-muted-foreground" />
                                         {mockPost.tags.map((tag) => (
                                             <Badge key={tag} variant="default">
