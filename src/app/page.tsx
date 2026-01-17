@@ -75,7 +75,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary-50 via-background to-primary-50 dark:from-neutral-950 dark:via-background dark:to-neutral-950 py-20 md:py-32">
+      <section className="relative overflow-hidden bg-linear-to-br from-primary-50 via-background to-primary-50 dark:from-neutral-950 dark:via-background dark:to-neutral-950 py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
@@ -85,7 +85,7 @@ export default function HomePage() {
             </div>
 
             {/* Heading */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-foreground to-primary bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-linear-to-r from-foreground via-foreground to-primary bg-clip-text text-transparent">
               Share Your Stories with the World
             </h1>
 
@@ -195,7 +195,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-24 bg-gradient-to-br from-primary-600 to-primary-800 text-white">
+      <section className="py-20 md:py-24 bg-linear-to-br from-primary-800 to-primary-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             Ready to Start Your Journey?

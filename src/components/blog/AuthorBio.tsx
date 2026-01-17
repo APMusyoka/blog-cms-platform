@@ -31,7 +31,7 @@ const AuthorBio: React.FC<AuthorBioProps> = ({ author }) => {
             <div className="flex flex-col sm:flex-row gap-6">
                 {/* Avatar */}
                 {author.avatar && (
-                    <div className="flex-shrink-0">
+                    <div className="shrink-0">
                         <div className="relative w-24 h-24 rounded-full overflow-hidden ring-4 ring-background">
                             <Image
                                 src={author.avatar}

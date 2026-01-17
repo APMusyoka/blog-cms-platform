@@ -20,7 +20,7 @@ const Newsletter: React.FC = () => {
     };
 
     return (
-        <section className="bg-gradient-to-br from-primary-600 to-primary-800 text-white py-16 md:py-20 rounded-2xl">
+        <section className="bg-linear-to-br from-primary-800 to-primary-900 text-white py-16 md:py-20 rounded-2xl">
             <div className="container mx-auto px-4 text-center max-w-2xl">
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-white/10 rounded-full mb-6">
                     <Mail size={32} />

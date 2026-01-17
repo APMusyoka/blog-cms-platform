@@ -82,7 +82,7 @@ export default function CategoriesPage() {
                             <Card hover className="h-full group cursor-pointer">
                                 <CardContent className="pt-6">
                                     {/* Icon with gradient */}
-                                    <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${category.color} rounded-2xl mb-4 text-3xl group-hover:scale-110 transition-transform duration-300`}>
+                                    <div className={`inline-flex items-center justify-center w-16 h-16 bg-linear-to-br ${category.color} rounded-2xl mb-4 text-3xl group-hover:scale-110 transition-transform duration-300`}>
                                         {category.icon}
                                     </div>
 
